@@ -1,0 +1,106 @@
+.row{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+width:100%;
+text-align: center;
+margin: auto;
+}
+
+.column{
+  display:flex;
+  flex-direction: column;
+  flex-basis:100%;
+  flex:1;
+  margin: auto;
+  overflow: hidden;
+
+}
+
+.selectBoxContainer{
+height: 100px;
+margin:auto;
+background-color: blueviolet;
+border-radius: 10px;
+
+}
+.resultContainer{
+  height: 80%;
+  margin:auto;
+  background-color:azure;
+  border-radius: 10px;
+}
+
+.cent{
+  text-align: center;
+  margin: auto;
+}
+
+.container{
+  margin: auto;
+  max-width: 70%;
+}
+
+.columnLeftHeader{
+  display:flex;
+  flex-direction: column;
+  flex-basis:100%;
+  flex:1;
+  margin: auto;
+  overflow: hidden;
+  text-align: left;
+  color: violet;
+
+}
+.columnRightHeader{
+  display:flex;
+  flex-direction: column;
+  flex-basis:100%;
+  flex:1;
+  margin: auto;
+  overflow: hidden;
+  text-align: right;
+  color: violet;
+
+}
+
+.columnLeft{
+  display:flex;
+  flex-direction: column;
+  flex-basis:100%;
+  flex:1;
+  margin: auto;
+  overflow: hidden;
+  text-align: left;
+
+}
+.columnRight{
+  display:flex;
+  flex-direction: column;
+  flex-basis:100%;
+  flex:1;
+  margin: auto;
+  overflow: hidden;
+  text-align: right;
+}
+
+
+.rowResult{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:100%;
+  text-align: center;
+  margin: auto;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+  }
+
+  .error{
+    height: 100px;
+    margin:auto;
+    background-color: orange;
+    border-radius: 10px;
+    text-align: center;
+  }
